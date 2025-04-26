@@ -1,0 +1,19 @@
+This is my proposal for the custom api I'm working on.
+
+I decided to make a personal music history api. I want to implement an ETL process to add CSV data to a database (postgres). Then use Express to show some of my personal data such as
+
+Such as:
+- Average time spent listening to new songs.
+- Most played artist across all the data.
+- Longest and shortest song.
+- Longest and shortest title.
+
+Python for the ETL process. (I find it the easiest and best for parsing data and transforming it.)
+Node.js and Express for routing and server build.
+PostgreSQL for the database architecture
+Prisma for the schema
+
+I plan to spend a few days collecting data and turning it into CSV
+Then spend a half a day working on the schema to understand what I want the data to look like.
+Rest of that day make sure the data fits the schema
+the rest of the time working on the different controllers and functions associated with the routes
